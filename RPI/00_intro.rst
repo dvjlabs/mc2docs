@@ -36,7 +36,6 @@ Contiene diverse interfacce hardware di utilizzo comune:
 * Wifi e Bluetooth onboard
 
 .. image:: images/RPI3_hardware_interface_diagram.jpg
-    :align: center
     :alt: RPI3 hardware interface diagram
 
 Finora, Raspberry Pi si è sviluppato fino alla quarta generazione. Le modifiche nelle versioni sono accompagnate da aumenti e aggiornamenti dell'hardware. 

@@ -5,7 +5,6 @@ Operazioni di base
 Ripartiamo dal Raspberry come lo abbiamo lasciato un attimo fa: acceso, pronto (caricamento iniziale finito), con interfaccia grafica
 
 .. image:: images/raspbian_buster.jpg
-    :align: center
     :alt: Raspbian Buster Image
 
 Ricordo inoltre le credenziali dell'account di default.
@@ -31,7 +30,6 @@ ad esso si dovrà utilizzare il comando sudo.
 A quel punto si avrà accesso ad una interfaccia *grafica-testuale* con cui completare la configurazione:
 
 .. image:: images/raspi-config.png
-    :align: center
     :alt: raspi-config
 
 Le opzioni sono in ordine e si può procedere tramite esse a configurare il Raspberry. Alcune opzioni sono chiarissime e non necessitano di spiegazioni;
@@ -71,7 +69,6 @@ Prime operazioni
 Riavviato il sistema operativo, diamo un occhio più da vicino al desktop del Raspberry
 
 .. image:: images/RPI_common_apps.jpg
-    :align: center
     :alt: Raspbian Buster desktop
 
 Poiché considero siate utenti di fascia medio-alta davanti ad un Sistema Operativo, immagino non abbiate problemi ad individuare le applicazioni più
@@ -187,7 +184,6 @@ Utilities
     ad eseguirlo.
     
     .. image:: images/sudo.png
-        :align: center
         :alt: sudo examples
 
     

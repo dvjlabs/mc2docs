@@ -61,7 +61,6 @@ per ultimo l'alimentazione.
     Il collegamento alla corrente deve essere quindi l'ultima cosa da fare quando si prepara un Raspberry per l'accensione.
 
 .. image:: images/raspbian_buster.jpg
-    :align: center
     :alt: Raspbian Buster Image
 
 | Ecco fatto!
