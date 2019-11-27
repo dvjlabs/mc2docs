@@ -15,6 +15,7 @@ Mente e Cervello 2
    RPI/01_installation
    RPI/02_base
    RPI/03_remote
+   RPI/04_multimedia
 
 .. toctree::
    :maxdepth: 2
