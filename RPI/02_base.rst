@@ -23,7 +23,7 @@ Configurazione Raspberry
 Il sistema operativo Rasbian fornisce un tool a linea di testo da cui accedere a tutte le configurazioni di base del Raspberry. Per accedere 
 ad esso si dovrà utilizzare il comando sudo. 
 
-.. code-block:: bash
+.. code:: bash
 
     $ sudo raspi-config
 
@@ -185,7 +185,7 @@ Utilities
     
     .. image:: images/sudo.png
         :alt: sudo examples
-
+	:align: center
     
 Gestione software
 =================
@@ -201,35 +201,35 @@ di configurazione per renderli disponibile all'istante!
 
 Vediamo via via le opzioni di APT più importanti:
 
-.. code-block:: bash
+.. code:: bash
 
     $ sudo apt update
     
 Aggiorna l'elenco del software presente nel repository. In questo modo APT saprà qual è l'ultima versione del software disponibile online.
 
 
-.. code-block:: bash
+.. code:: bash
 
     $ sudo apt upgrade
 
 Sincronizza il software di sistema con quello presente nel repository. Praticamente permette di aggiornare tutto il software all'ultima versione disponibile.
 
 
-.. code-block:: bash
+.. code:: bash
 
     $ sudo apt search package
 
 Cerca il termine "package" fra i pacchetti software disponibili nel repository. Funziona anche senza sudo.
 
 
-.. code-block:: bash
+.. code:: bash
 
     $ sudo apt install package
 
 Scarica "package" e lo installa nel sistema, rendendolo disponibile all'utente.
 
 
-.. code-block:: bash
+.. code:: bash
 
     $ sudo apt remove package
 

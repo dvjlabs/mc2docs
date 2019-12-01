@@ -36,7 +36,7 @@ I client RDP esistono per la maggior parte delle versioni di Microsoft Windows, 
     
     Installa il servizio xrdp:
     
-    .. code-block:: bash
+    .. code:: bash
 
         $ sudo apt install xrdp
         

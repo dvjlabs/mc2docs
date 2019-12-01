@@ -35,11 +35,10 @@ mantenerlo il più breve possibile, in modo tale che sia più facile controllare
 
 Vi lascio un file di esempio con le impostazioni che può servire di impostare:
 
-.. code-block:: json
+.. code:: json
 
     {
         // Language used for speech-to-text and text-to-speech.
-        // NOTE: DO NOT CHANGE THIS!!
         "lang": "en-us",
 
         // Measurement units, either 'metric' or 'english'
@@ -136,16 +135,18 @@ nel caso dell'italiano, la risposta è sì!!
 Le impostazioni del linguaggio e i motori STT e TTS possono essere modificati tramite il file di configurazione. Lascio qui sotto un esempio:
 
 
-.. code-block:: json
+.. code:: json
 
     {
         "lang": "it-it",
+
         "stt": {
             "module": "mycroft",
             "mycroft": {
                 "lang": "it-it"
             }
         },
+
         "tts": {
             "module": "google",
             "google": {
@@ -153,4 +154,5 @@ Le impostazioni del linguaggio e i motori STT e TTS possono essere modificati tr
             }
         }
     }
+
 
